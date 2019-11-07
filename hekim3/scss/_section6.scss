@@ -1,0 +1,211 @@
+.section6-container {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    button {
+        height: 50px;
+        border: none;
+        border-radius: 25px;
+        background-color: #00ae8e;
+        display: inline;
+        margin-top: 10px;
+        margin-left: 10px;
+        .button-text{
+            display: flex;
+            p {
+                padding-left: 20px;
+                font-size: 16px;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.4px;
+                color: #ffffff;
+                align-self: center;
+                margin-top: 0px;
+            }
+            i{
+                color: #00816a;
+                font-size: 30px;
+                margin-left: 10px;
+                padding-right: 10px;
+                align-self: center;
+            }
+            &:hover i {
+                color: aqua;
+
+            }
+        }
+        
+    }
+    .section6-row1 {
+        margin-bottom: 46px;
+
+        .section6-row1-col {
+            h1 {
+                font-size: 45px;
+                letter-spacing: 1.13px;
+                color: #00ae8e;
+                padding-bottom: 20px;
+            }
+           
+            p {
+                font-size: 19px;
+                line-height: 1.38;
+                letter-spacing: 0.6px;
+                color: #231f20;
+            }
+        }
+    }
+    .close{
+        display: none;
+    }
+    #card{
+        .section6-col {
+            .section6-card {
+
+                border-radius: 4px;
+                border: none;
+                box-shadow: 0 0 24px 10px rgba(0, 174, 142, 0.06);
+
+                &:hover .section6-card-body {
+                    background: #00ae8e;
+                }
+                &:hover .section6-card-body span {
+                    color: white;
+                }
+                &:hover .section6-card-body h1 {
+                    color: white;
+                }
+                &:hover .section6-card-body p {
+                    color: white;
+                }
+                
+                img {
+                    height: 230px;
+                    width: 100%;
+                }
+
+                .section6-card-body {
+                    transition: 0.3s;
+                    border-radius: 0px 0px 4px 4px;
+
+                    span {
+                        display: block;
+                        font-size: 12px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #000000;
+                        margin-top: 5px;
+                        margin-bottom: 6px;
+                    }
+
+                    h1 {
+                        font-size: 20px;
+                        letter-spacing: 0.5px;
+                        padding-bottom: 25px;
+                        color: #000000;
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 1.57;
+                        letter-spacing: 0.35px;
+                        color: #000000;
+                    }
+                }
+            }
+
+        }
+    }
+    .section6-row {
+       
+        .open{
+            display: flex; 
+            margin-top: 20px;
+        }
+        .section6-col {
+            .section6-card {
+                cursor: pointer;
+                border-radius: 4px;
+                border: none;
+                box-shadow: 0 0 24px 10px rgba(0, 174, 142, 0.06);
+
+                &:hover .section6-card-body {
+                    background: #00ae8e;
+                }
+                &:hover .section6-card-body span {
+                    color: white;
+                }
+                &:hover .section6-card-body h1 {
+                    color: white;
+                }
+                &:hover .section6-card-body p {
+                    color: white;
+                }
+                
+                img {
+                    height: 230px;
+                    width: 100%;
+                }
+
+                .section6-card-body {
+                    transition: 0.3s;
+                    border-radius: 0px 0px 4px 4px;
+
+                    span {
+                        display: block;
+                        font-size: 12px;
+                        font-weight: 600;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        color: #000000;
+                        margin-top: 5px;
+                        margin-bottom: 6px;
+                    }
+
+                    h1 {
+                        font-size: 20px;
+                        letter-spacing: 0.5px;
+                        padding-bottom: 25px;
+                        color: #000000;
+
+                    }
+
+                    p {
+                        font-size: 14px;
+                        line-height: 1.57;
+                        letter-spacing: 0.35px;
+                        color: #000000;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section6-container {
+        .section6-row1 {
+            .section6-row1-col {
+                #button{
+                    top: -14px;
+                }
+                h1 {
+                    font-size: 25px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        
+    }
+
+}

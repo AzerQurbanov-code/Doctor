@@ -1,0 +1,98 @@
+.section4-container {
+    padding-top: 50px;
+    margin-bottom: 80px;
+
+    .section4-row1 {
+        margin-bottom: 46px;
+
+        .section4-row1-col {
+            h1 {
+                font-size: 45px;
+                letter-spacing: 1.13px;
+                color: #00ae8e;
+                padding-bottom: 20px;
+            }
+
+            p {
+                font-size: 19px;
+                line-height: 1.38;
+                letter-spacing: 0.6px;
+                color: #231f20;
+            }
+        }
+    }
+
+    .section4-row {
+        .section4-col2 {
+            .owl-carousel {
+                .owl-carousel-img{
+                    cursor: pointer;
+                    p{
+                        position: absolute;
+                        top: 196px;
+                        left: 17px;
+                        font-style: normal;
+                        line-height: 1.54;
+                        letter-spacing: normal;
+                        color: #ffffff;
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                        
+
+                    }
+                    &:hover img {
+                        opacity: 0.6;
+                    }
+                    &:hover {
+                        background: linear-gradient(rgba(255, 255, 255, 0),#00ae8e,#02836b);
+                    }
+                    &:hover p {
+                        opacity: 1;
+                    }
+                }
+                .owl-nav {
+                    margin-top: 44px;
+                    .owl-prev {
+                        background: rgba(8, 38, 114, 0.4);
+                        border-radius: 50px;
+                        height: 40px;
+                        margin-top: 44px;
+                        width: 40px;
+                        margin: 2.5px;
+                        &:hover{
+                            background: #00ae8e;
+                        }
+                        &:hover span{
+                            color: black;
+                        }
+                        span{
+                            font-size: 35px;
+                            color: white;
+                            font-family: monospace;
+                        }
+                    }
+
+                    .owl-next {
+                        background: rgba(8, 38, 114, 0.4);
+                        border-radius: 50px;
+                        height: 40px;
+                        margin-top: 44px;
+                        width: 40px;
+                        margin: 2.5px;
+                        &:hover{
+                            background: #00ae8e;
+                        }
+                        &:hover span{
+                            color: black;
+                        }
+                        span{
+                            font-size: 35px;
+                            color: white;  
+                              font-family: monospace;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

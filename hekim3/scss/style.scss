@@ -1,0 +1,23 @@
+@import 'header';
+@import 'section1';
+@import 'section2';
+@import 'section3';
+@import 'section4';
+@import 'section6';
+@import 'section7';
+@import 'footer';
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+}
+i{
+    cursor: pointer;
+}
+button,select:focus {
+    outline: none;
+}
+html{
+    scroll-behavior: smooth;
+}
